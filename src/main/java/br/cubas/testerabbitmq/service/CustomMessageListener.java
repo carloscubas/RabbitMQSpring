@@ -11,7 +11,7 @@ import br.cubas.testerabbitmq.model.Employee;
 public class CustomMessageListener {
 	
 
-    @RabbitListener(queues = "${javainuse.rabbitmq.queue}")
+    @RabbitListener(queues = "${cubas.rabbitmq.queue}")
     public void receiveMessage(final Employee company) {
     	System.out.println("received: " + company.toString());
     }

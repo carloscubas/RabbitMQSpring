@@ -11,7 +11,7 @@ import br.cubas.testerabbitmq.service.RabbitMQSender;
 
 
 @RestController
-@RequestMapping(value = "/javainuse-rabbitmq/")
+@RequestMapping(value = "/rabbitmq/")
 public class RabbitMQWebController {
 
 	@Autowired
